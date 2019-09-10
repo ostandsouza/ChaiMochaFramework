@@ -1,0 +1,23 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "module": "umd",
+        //"noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        //"outFile": "build/Main.js",
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "outDir": "./build",
+        "target": "es2017",
+        "experimentalDecorators": true,
+        "lib": [
+            "es6"
+        ],
+        //"lib": ["es5", "es2015.promise"],
+        //"lib": [ "es2015" ],
+        "typeRoots": [
+            "./src/@types"
+        ]
+    }
+}
