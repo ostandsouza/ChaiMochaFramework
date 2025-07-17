@@ -1,0 +1,9 @@
+name: chai test framework
+on: workflow_dispatch
+jobs:
+  print_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print statement
+        run: echo "test run 1"
+      
