@@ -17,5 +17,9 @@ jobs:
         uses: actions/setup-node@v4
         with: 
           node-version: 16.0
+      - name: download npm dependecies
+        run: npm install
+      - name: run tests
+        run : npm test
       
       
