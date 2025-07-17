@@ -5,5 +5,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print statement
-        run: echo "test run 1"
+        run: |
+          echo "test run 1"
+          echo "test run 2"
+  test_run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repo
+        uses: actions/checkout@v4
+      
       
